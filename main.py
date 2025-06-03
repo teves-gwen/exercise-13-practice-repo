@@ -1,6 +1,7 @@
 from gwn10package.teves import teves_profile
 from gwn10package.bataller import bataller_profile
 from gwn10package.sario import sario_profile
+from gwn10package.gonato import gonato_profile
 
 def main_menu():
     """ Main program to display team member profiles. """
@@ -8,6 +9,7 @@ def main_menu():
     print("1. Gwen Teves")
     print("2. Christian Bataller")
     print("3. Gerald Sario")
+    print("4. Alexa Gonato")
     print("0. Exit")
 
     return input("\nEnter your choice: ").strip()
@@ -22,6 +24,8 @@ while True:
             bataller_profile()
         case "3":
             sario_profile()
+        case "4":
+            gonato_profile()
         case "0":
             print("\nExiting the program...")
             break
