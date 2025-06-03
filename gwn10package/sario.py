@@ -4,3 +4,4 @@ def sario_profile():
     print("1. I am a BSIT student from the PUP - Taguig.")
     print("2. My goal is to become a become rich, richer, and richest.")
     print("3. I want to become a Millionare, Billionare, Triollionare.")
+    print("4. Teves Comment: Keep reaching for your dreams, Gerald!")

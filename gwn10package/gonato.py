@@ -4,3 +4,4 @@ def gonato_profile():
     print("1. I am a student from BSIT 2-1.")
     print("2. To finally stop saying ‘student pa lang po’ in every intro.")
     print("3. I want to become an F1 Racer.")
+    print("4. Teves Comment: Good luck with your dream! I know you can do it!")
